@@ -1,0 +1,309 @@
+
+body {
+    background-color: #f6f4e6;
+    height: 800px;
+    padding-top: 105px;
+    position: relative;
+}
+
+/* Estilo del header */
+.nav-menu{
+    /* background-color: #f4e04d; */
+    background-color: #fddb3a;
+/*     position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2; */
+}
+
+.nav-menu .brandStyle{
+/*     font-family: 'Vollkorn', serif; */
+    font-family: 'Merriweather', serif; 
+    color: black;
+    letter-spacing: 5px;
+    font-size: 150%;
+} 
+
+.navLinkStyle{
+    color: black;
+    font-family: 'Vollkorn', serif;
+    font-family: 'Merriweather', serif;
+ 
+}
+
+a:hover{
+    text-decoration: underline;
+}  
+
+@media only screen and (max-width:768px)
+{
+   body {
+       padding-top: 100px;
+   }
+
+/*    header nav{
+    display: flex;
+   } */
+
+   .brandStyle{
+    letter-spacing: 5px;
+   }
+   
+   .nav-menu li{
+       font-size: 70%;
+       display: flex;
+       padding-left: 0;
+       margin-left: 0;
+       /* flex-direction: column; */
+   }
+
+   .mainParagraph{
+       font-size: medium;
+   }
+
+}
+
+
+/* contenido principal */
+main {
+    background-color: #f6f4e6;
+}
+
+.subtitle {
+    color: #ffe05d;
+    text-align: center; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 250%;  
+    display: flex;
+    justify-content: center;
+}
+
+.mainParagraph{
+    color: #050505;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+}
+
+/* contacto */
+#contactData li{
+   font-size: 3.5vh;
+   padding-right: 10px;
+   padding-left: 10px;
+   margin: 50px;
+   display: inline-block;
+   justify-content: space-around;
+   align-items: center;
+   flex-direction: row;
+}
+
+
+
+
+
+/* pisando bootstrap */
+.formulario{
+    background: #bedbbb;
+}
+
+.boton{
+    margin: 5px;
+}
+
+/* Especialidades */
+
+/* #fondoEspecialidades{
+    background-color: #d9e4dd;
+}
+
+#fondoEspecialidades main{
+    background-color: #d9e4dd;
+} */
+
+.tableIcon{
+    color: #212121;
+    padding: 5px 0;
+    font-size: 40px;
+}
+
+/* alquileres */
+
+.grid-container {
+    display: grid;
+    grid-gap: 4px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    transition: all 2s;
+}
+ .grid-container img{
+     width: 100%;   
+     margin: 5px 10px 5px 10px;
+}
+
+ @media only screen and (max-width:768px)
+ {
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+    }
+ }
+
+.img1{
+    margin: 5px;
+    width: 400px;
+    height: 400px;
+    grid-area: "img1";
+    object-fit: cover;
+    /* grid-row: auto; */
+}
+
+.img2{
+    margin: 5px;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    grid-area: "img2";
+    /* grid-row: auto; */
+}
+
+.img1:hover{
+    -webkit-transform: scale(1.5) rotate(0.01deg);
+    transform: scale(1.2) rotate(0.01deg);
+    transition-timing-function: ease-in-out;
+}
+.img2:hover{
+    -webkit-transform: scale(1.5) rotate(0.01deg);
+    transform: scale(1.2) rotate(0.01deg);
+    transition-timing-function: ease-in-out;
+}
+
+.img3{
+    margin: 5px;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    grid-area: "img2";
+    /* grid-row: auto; */
+}
+
+.img3:hover{
+    -webkit-transform: scale(1.5) rotate(0.01deg);
+    transform: scale(1.2) rotate(0.01deg);
+    transition-timing-function: ease-in-out;
+}
+
+.img4{
+    margin: 5px;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    grid-area: "img2";
+    /* grid-row: auto; */
+}
+
+.img4:hover{
+    -webkit-transform: scale(1.5) rotate(0.01deg);
+    transform: scale(1.2) rotate(0.01deg);
+    transition-timing-function: ease-in-out;
+}
+
+/* footer info*/
+.info {
+    background-color: rgb(180, 180, 180);
+    /* background-color: #686d76; */
+    /*#767c77;*/
+    
+}
+
+.info h3{
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.info p{
+    font-family: 'PT Serif', serif;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+.footer-info a{
+    text-decoration: none;
+    color: #212121;
+    padding: 5px 0;
+    font-size: 40px;
+}
+
+.footer-info a:hover{
+    color: whitesmoke;
+}
+
+@media only screen and (max-width:768px)
+{
+    .info h3{
+        font-family: 'PT Serif', serif;
+        font-weight: bold;
+        text-align: center;
+        font-size: small;
+        padding-top: 5px;
+    }
+    
+    .info p{
+        font-family: 'PT Serif', serif;
+        font-size: smaller;
+        padding-top: 2px;
+        padding-bottom: 3px;
+        text-align: center;
+    }
+    
+    .footer-info{
+        display: grid;
+        justify-content: space-around;
+        flex-direction: row;
+        padding-bottom: 10px;
+        grid-template-areas: 
+            "horarios redes"
+            "direccion direccion";
+    }
+    
+    .Horarios{
+        grid-area: horarios;
+    }
+
+    .Redes{
+        grid-area: redes;
+    }
+
+    .Direccion{
+        grid-area: direccion;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 5px;
+    }
+}
+/* footer final de pag*/
+.footer-credits{
+    position: absolute;
+    width: 100%;
+    background-color: #fddb3a;
+}
+.footer-credits p {
+    margin: 0;
+    color: #050505;
+    font-size: small;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    height: 20px;
+}
+
