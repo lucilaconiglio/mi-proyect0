@@ -7,7 +7,7 @@ $cuerpoFont: 'PT Serif', serif;
 $animate: all 0.2s ease-in-out;
 
 body {
-    background-color: #f6f4e6;
+    background-color: white;
     height: 800px;
     padding-top: 110px;
     position: relative;
@@ -99,7 +99,7 @@ background-color: $amarillo;
 /* contenido principal */
 
 main {
-background-color: #f6f4e6;
+background-color: white;
 
     .subtitle {
         color: #ffe05d;
@@ -128,6 +128,46 @@ background-color: #f6f4e6;
         }
     }
 }
+
+/* Nosotros*/
+
+.nosotros{
+    margin-top: 30px;
+        .subtitle__nosotros{
+            text-align: center;
+            margin: 20px;
+            font-size: 30px;
+            letter-spacing: 10px;
+        }
+        div{
+            display: flex;
+            flex-direction: row;
+
+            .izquierda{
+                margin-left: 0%;
+                text-align: justify;
+                font-size: 22px;
+                font-family: $cuerpoFont;
+                text-indent: 30px;
+                
+            }
+
+            img{ 
+                height: 400px;
+                width: 100%;
+            }
+        }
+
+}
+
+@media only screen and (max-width:768px)
+{
+  .nosotros div{
+      display: flex;
+      flex-direction: column;
+  }  
+}
+
 
 /* Especialidades */
 

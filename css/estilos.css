@@ -1,7 +1,7 @@
 /* npm run watch-css */
 /* Variables */
 body {
-  background-color: #f6f4e6;
+  background-color: white;
   height: 800px;
   padding-top: 110px;
   position: relative; }
@@ -62,7 +62,7 @@ body {
 
 /* contenido principal */
 main {
-  background-color: #f6f4e6; }
+  background-color: white; }
   main .subtitle {
     color: #ffe05d;
     text-align: center;
@@ -80,6 +80,32 @@ main {
       color: black; }
     main .carruselFondo p {
       color: black; }
+
+/* Nosotros*/
+.nosotros {
+  margin-top: 30px; }
+  .nosotros .subtitle__nosotros {
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    letter-spacing: 10px; }
+  .nosotros div {
+    display: flex;
+    flex-direction: row; }
+    .nosotros div .izquierda {
+      margin-left: 0%;
+      text-align: justify;
+      font-size: 22px;
+      font-family: "PT Serif", serif;
+      text-indent: 30px; }
+    .nosotros div img {
+      height: 400px;
+      width: 100%; }
+
+@media only screen and (max-width: 768px) {
+  .nosotros div {
+    display: flex;
+    flex-direction: column; } }
 
 /* Especialidades */
 .redSocial {
