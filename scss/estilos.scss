@@ -6,11 +6,23 @@ $navFont: 'Merriweather', serif;
 $cuerpoFont: 'PT Serif', serif;
 $animate: all 0.2s ease-in-out;
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     background-color: white;
     height: 800px;
     padding-top: 110px;
     position: relative;
+}
+
+#indexMarginTop{
+    padding-top: 120px;
+        .subtitle{
+            color: white;
+            font-size: 0%;
+        }
 }
 
 /* Estilo del header */
@@ -118,6 +130,7 @@ background-color: white;
 
     .carruselFondo{
     background-color: rgba(255,255,255,0.5);
+    padding: 30px;
     
         h3{
             color: black;
@@ -132,7 +145,7 @@ background-color: white;
 /* Nosotros*/
 
 .nosotros{
-    margin-top: 30px;
+    margin-top: 60px;
         .subtitle__nosotros{
             text-align: center;
             margin: 20px;
@@ -155,6 +168,7 @@ background-color: white;
             img{ 
                 height: 400px;
                 width: 100%;
+                padding-bottom: 15px;
             }
         }
 
@@ -165,11 +179,57 @@ background-color: white;
   .nosotros div{
       display: flex;
       flex-direction: column;
+      position: sticky;
   }  
 }
 
 
 /* Especialidades */
+
+.bc-banner {
+    margin-top: 60px;
+    position:relative;
+    overflow:hidden;
+    background-color:#f3e6e3;
+ }
+ .bc-banner a {
+    text-decoration:none;
+    color:#fff;
+ }
+ .bc-banner a:hover {
+    opacity:0.8;
+ }
+ .bc-banner-header {
+    background-color:#fff;
+    position:relative;
+    z-index:2;
+    padding:1rem;
+ }
+ 
+ .bc-banner-body {
+    position:relative;
+    z-index:2;
+    padding:2rem;
+ }
+ .bc-banner .bc-banner-cover {
+    position:absolute;
+    opacity: 0.3;
+    filter: alpha(opacity=30); /* For IE8 and earlier */
+    object-fit: cover;
+    top:0;
+    z-index:1;
+    height: 100%;
+    width: 100%;
+ }
+
+.tabla_especialidades{
+    margin-top: 30px;
+    
+    td{
+        font-family: 'PT Sans', sans-serif;
+    }
+}
+ 
 
 .redSocial{
     text-decoration: none;
