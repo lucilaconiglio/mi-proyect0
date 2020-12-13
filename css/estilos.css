@@ -124,25 +124,23 @@ main {
   margin-top: 60px;
   position: relative;
   overflow: hidden;
-  background-color: #f3e6e3; }
+  background-color: #ffdbc5;
+  padding: 40px; }
 
-.bc-banner a {
-  text-decoration: none;
-  color: #fff; }
-
-.bc-banner a:hover {
+.bc-banner:hover {
   opacity: 0.8; }
 
 .bc-banner-header {
   background-color: #fff;
   position: relative;
   z-index: 2;
-  padding: 1rem; }
+  padding: 2rem; }
 
 .bc-banner-body {
   position: relative;
   z-index: 2;
-  padding: 2rem; }
+  padding: 1rem;
+  font-size: 150%; }
 
 .bc-banner .bc-banner-cover {
   position: absolute;
@@ -160,15 +158,10 @@ main {
   .tabla_especialidades td {
     font-family: 'PT Sans', sans-serif; }
 
-.redSocial {
-  text-decoration: none;
-  color: #1d2d50;
+.tableIcon {
+  color: #212121;
   padding: 5px 0;
-  font-size: 35px;
-  margin-left: 15px; }
-
-.redSocial:hover {
-  color: whitesmoke; }
+  font-size: 40px; }
 
 /* contacto */
 #contactData li {
@@ -192,16 +185,13 @@ main {
     font-size: 80%; } }
 
 /* pisando bootstrap contacto */
+body .fondoContacto {
+  background-color: #41444b; }
+
 .formulario {
   background: #bedbbb; }
   .formulario .boton {
     margin: 5px; }
-
-/* Especialidades */
-.tableIcon {
-  color: #212121;
-  padding: 5px 0;
-  font-size: 40px; }
 
 /* alquileres */
 .grid-container {
