@@ -40,7 +40,7 @@
                                 <a class="nav-link text-dark navhover hover1" href="#inicio">INICIO</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" href="#nosotrxs">NOSOTROS</a>
+                                <a class="nav-link text-dark" href="#nosotros">NOSOTROS</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-dark" href="#especialidades">ESPECIALIDADES</a>
@@ -49,7 +49,7 @@
                                 <a class="nav-link text-dark" href="alquileres.html">ALQUILERES</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" href="contacto.html">CONTACTO</a>
+                                <a class="nav-link text-dark" href="#contacto">CONTACTO</a>
                             </li>
                         </ul>
                     </div>
@@ -61,7 +61,7 @@
 
         <!-- Contenido principal, este texto se encontrara dentro de una imagen-->
         <!-- Aca va a ir un carrusel de imagenes-->
-        <section class="inicio">
+        <section class="inicio" id="inicio">
           <main>
 
               <h1 class="subtitle">Inicio</h1>
@@ -108,7 +108,7 @@
           </main>
         </section>
 
-        <section class="nosotrxs nosotros">
+        <section class="nosotros" id="nosotros">
           <!--Nosotros-->
           <main class="container">
             <h2 class="subtitle__nosotros">SOBRE NOSOTROS</h2>
@@ -188,6 +188,59 @@
               </table>
           </main>
         </section>
+
+        <!-- Contacto-->
+
+        <section id="contacto">
+          <main>
+            <section class="container">
+                <h2 class="subtitle">¡Contactanos!</h2>
+                <ul id="contactData">
+                <!--logo de mail--> <li class="far fa-envelope mailResponsive" id="mail">consultoriosyrigoyen@hotmail.com</li>
+                <!--logo de telefono--> <li class="fas fa-phone-alt">4254-0315 <br> 7530-0059</li>
+                <!--logo de whatsapp--> <li class="fab fa-whatsapp">15-2254-6427</li>
+                </ul>
+            </section>
+            <div class="container formulario">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="validationDefault01">Nombre</label>
+                                <input type="text" class="form-control" id="validationDefault01" name="nombre" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="validationDefault03">Telefono</label>
+                                <input type="tel" class="form-control" id="validationDefault03" name="telefono" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="validationDefault02">Email</label>
+                                <input type="email" class="form-control" id="validationDefault02" name="email" required>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <label for="validationDefault03">Asunto</label>
+                                <select class="custom-select" id="validationDefault03" required>
+                                    <option selected disabled value="">Elije...</option>
+                                    <option>  </option>
+                                    <option>Odolontologia</option>
+                                    <option>Clinica Medica</option>
+                                    <option>Cardiologia</option>
+                                    <option>Nutricion</option>
+                                    <option>Pediatria neumologica</option>
+                                    <option>Alquiler</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="comment">Mensaje</label>
+                            <textarea class="form-control" rows="5" id="comment"></textarea>
+                        </div>
+                    <button type="submit" class="boton btn btn-dark">Enviar</button>
+                </form>
+            </div>
+        </main>
+        </section>
+
+
 
 
 
