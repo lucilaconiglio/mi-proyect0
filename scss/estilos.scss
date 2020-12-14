@@ -11,7 +11,6 @@ html {
   }
 
 body {
-    background-color: white;
     height: 800px;
     padding-top: 110px;
     position: relative;
@@ -110,9 +109,11 @@ background-color: $amarillo;
     
 /* contenido principal */
 
-main {
-background-color: white;
+#inicio{
+    margin-bottom: 150px 0x;
+}
 
+main {
     .subtitle {
         color: #ffe05d;
         text-align: center; 
@@ -186,6 +187,10 @@ background-color: white;
 
 /* Especialidades */
 
+#especialidades{
+    margin-bottom: 40px;
+}
+
 .bc-banner {
     margin-top: 60px;
     position:relative;
@@ -237,6 +242,10 @@ background-color: white;
 
 /* contacto */
 
+#contacto{
+    margin-bottom: 40px;
+}
+
 #contactData li{
     font-size: 3.5vh;
     padding-right: 10px;
@@ -264,10 +273,6 @@ background-color: white;
  
  /* pisando bootstrap contacto */
 
-body .fondoContacto{
-     background-color: #41444b;
- }
-
  .formulario{
     background: #bedbbb;
  
@@ -278,6 +283,10 @@ body .fondoContacto{
 
 
 /* alquileres */
+
+.alquiler-estilos main{
+    margin-bottom: 100px;
+}
 
 .grid-container {
     display: grid;

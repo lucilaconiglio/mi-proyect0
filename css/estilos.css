@@ -4,7 +4,6 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  background-color: white;
   height: 800px;
   padding-top: 110px;
   position: relative; }
@@ -70,26 +69,29 @@ body {
     height: 400px; } }
 
 /* contenido principal */
-main {
-  background-color: white; }
-  main .subtitle {
-    color: #ffe05d;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 250%;
-    display: flex;
-    justify-content: center; }
-  main .mainParagraph {
-    color: #050505;
-    text-align: center;
-    font-family: "PT Serif", serif; }
-  main .carruselFondo {
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 30px; }
-    main .carruselFondo h3 {
-      color: black; }
-    main .carruselFondo p {
-      color: black; }
+#inicio {
+  margin-bottom: 150px 0x; }
+
+main .subtitle {
+  color: #ffe05d;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 250%;
+  display: flex;
+  justify-content: center; }
+
+main .mainParagraph {
+  color: #050505;
+  text-align: center;
+  font-family: "PT Serif", serif; }
+
+main .carruselFondo {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 30px; }
+  main .carruselFondo h3 {
+    color: black; }
+  main .carruselFondo p {
+    color: black; }
 
 /* Nosotros*/
 .nosotros {
@@ -120,6 +122,9 @@ main {
     position: sticky; } }
 
 /* Especialidades */
+#especialidades {
+  margin-bottom: 40px; }
+
 .bc-banner {
   margin-top: 60px;
   position: relative;
@@ -164,6 +169,9 @@ main {
   font-size: 40px; }
 
 /* contacto */
+#contacto {
+  margin-bottom: 40px; }
+
 #contactData li {
   font-size: 3.5vh;
   padding-right: 10px;
@@ -185,15 +193,15 @@ main {
     font-size: 80%; } }
 
 /* pisando bootstrap contacto */
-body .fondoContacto {
-  background-color: #41444b; }
-
 .formulario {
   background: #bedbbb; }
   .formulario .boton {
     margin: 5px; }
 
 /* alquileres */
+.alquiler-estilos main {
+  margin-bottom: 100px; }
+
 .grid-container {
   display: grid;
   grid-gap: 4px;
