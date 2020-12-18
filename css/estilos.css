@@ -22,27 +22,10 @@ body {
     color: black;
     letter-spacing: 5px;
     font-size: 150%; }
-  .nav-menu .navLinkStyle {
-    color: black;
-    font-family: "Merriweather", serif;
-    /* font-family: 'Poppins', sans-serif; */ }
-    .nav-menu .navLinkStyle .navhover {
-      transition: all 0.2s ease-in-out; }
-      .nav-menu .navLinkStyle .navhover:before, .nav-menu .navLinkStyle .navhover:after {
-        content: "";
-        position: absolute;
-        bottom: -10px;
-        width: 0px;
-        height: 5px;
-        margin: 5px 0 0;
-        transition: all 0.2s ease-in-out;
-        transition-duration: 0.75s;
-        opacity: 0;
-        background-color: #006700; }
-      .nav-menu .navLinkStyle .navhover.hover1:before {
-        left: 50%; }
-      .nav-menu .navLinkStyle .navhover.hover1:after {
-        right: 50%; }
+  .nav-menu .navLinkStyle li {
+    margin-left: 30px; }
+    .nav-menu .navLinkStyle li a:hover {
+      background-color: rgba(255, 255, 255, 0.5); }
 
 @media only screen and (max-width: 768px) {
   body {
@@ -129,7 +112,7 @@ main .carruselFondo {
   margin-top: 60px;
   position: relative;
   overflow: hidden;
-  background-color: #ffdbc5;
+  background-color: 0;
   padding: 40px; }
 
 .bc-banner:hover {
@@ -142,16 +125,17 @@ main .carruselFondo {
   padding: 2rem; }
 
 .bc-banner-body {
+  font-family: 'PT Sans', sans-serif;
   position: relative;
   z-index: 2;
-  padding: 1rem;
-  font-size: 150%; }
+  padding: 10px;
+  font-size: 500px;
+  letter-spacing: 10px; }
 
 .bc-banner .bc-banner-cover {
   position: absolute;
   opacity: 0.3;
   filter: alpha(opacity=30);
-  /* For IE8 and earlier */
   object-fit: cover;
   top: 0;
   z-index: 1;

@@ -34,34 +34,12 @@ background-color: $amarillo;
         letter-spacing: 5px;
         font-size: 150%;
     }
-    .navLinkStyle{
-        color: black;
-        font-family: $navFont;
-        /* font-family: 'Poppins', sans-serif; */
-        .navhover {
-            transition: $animate;
-            &:before,
-            &:after {
-              content: "";
-              position: absolute;
-              bottom: -10px;
-              width: 0px;
-              height: 5px;
-              margin: 5px 0 0;
-              transition: $animate;
-              transition-duration: 0.75s;
-              opacity: 0;
-              background-color: darken(green,5%);
-            }
-            &.hover1 {
-                &:before {
-                left: 50%;
-                }
-                &:after {
-                right: 50%;
-            }
-            }
-        } 
+    .navLinkStyle li{
+        margin-left: 30px;
+
+        a:hover{
+            background-color: rgba(255,255,255,0.5);
+        }
     } 
 }
 
@@ -195,7 +173,7 @@ main {
     margin-top: 60px;
     position:relative;
     overflow:hidden;
-    background-color:#ffdbc5;
+    background-color: blue($color: #000000);
     padding: 40px;
  }
  .bc-banner:hover {
@@ -209,15 +187,18 @@ main {
  }
  
  .bc-banner-body {
+    font-family: 'PT Sans', sans-serif;
     position:relative;
     z-index:2;
-    padding:1rem;
-    font-size: 150%;
+    padding: 10px;
+    font-size: 500px;
+    letter-spacing: 10px;
  }
+
  .bc-banner .bc-banner-cover {
     position:absolute;
     opacity: 0.3;
-    filter: alpha(opacity=30); /* For IE8 and earlier */
+    filter: alpha(opacity=30); 
     object-fit: cover;
     top:0;
     z-index:1;
