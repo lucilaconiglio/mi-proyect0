@@ -8,6 +8,7 @@ $animate: all 0.2s ease-in-out;
 
 html {
     scroll-behavior: smooth;
+    background: fixed;
 }
 
 body {
@@ -91,6 +92,8 @@ background-color: $amarillo;
 
 #inicio{
     margin-bottom: 150px 0x;
+    background: fixed;
+    
 }
 
 main {
@@ -175,7 +178,7 @@ main {
     margin-top: 60px;
     position:relative;
     overflow:hidden;
-    background: white;
+    background: #FFC759;
     padding: 40px;
  }
  .bc-banner:hover {
@@ -258,7 +261,7 @@ main {
 
  .formulario{
     background: #bedbbb;
- 
+
     .boton{
         margin: 5px;
     }   

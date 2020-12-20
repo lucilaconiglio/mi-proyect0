@@ -2,7 +2,8 @@
 /* Variables */
 /* #fddb3a; */
 html {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  background: fixed; }
 
 body {
   height: 800px;
@@ -55,7 +56,8 @@ body {
 
 /* contenido principal */
 #inicio {
-  margin-bottom: 150px 0x; }
+  margin-bottom: 150px 0x;
+  background: fixed; }
 
 main .subtitle {
   color: #ffe05d;
@@ -114,7 +116,7 @@ main .carruselFondo {
   margin-top: 60px;
   position: relative;
   overflow: hidden;
-  background: white;
+  background: #FFC759;
   padding: 40px; }
 
 .bc-banner:hover {
