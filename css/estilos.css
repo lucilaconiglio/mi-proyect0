@@ -23,8 +23,6 @@ body {
     color: black;
     letter-spacing: 5px;
     font-size: 150%; }
-  .nav-menu .hamburguerColor {
-    background-color: black; }
   .nav-menu .navLinkStyle li {
     margin-left: 10px; }
     .nav-menu .navLinkStyle li a:hover {
