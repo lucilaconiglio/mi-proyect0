@@ -1,7 +1,7 @@
 /* npm run watch-css */
 
 /* Variables */
-$amarillo:  #fddb3a;
+$amarillo: #faf4ff; /* #fddb3a; */
 $navFont: 'Merriweather', serif;
 $cuerpoFont: 'PT Serif', serif;
 $animate: all 0.2s ease-in-out;
@@ -34,11 +34,16 @@ background-color: $amarillo;
         letter-spacing: 5px;
         font-size: 150%;
     }
+
+    .hamburguerColor{
+        background-color: black;
+    }
+
     .navLinkStyle li{
-        margin-left: 30px;
+        margin-left: 10px;
 
         a:hover{
-            background-color: rgba(255,255,255,0.5);
+            background-color: white;
         }
     } 
 }
@@ -173,7 +178,7 @@ main {
     margin-top: 60px;
     position:relative;
     overflow:hidden;
-    background-color: blue($color: #000000);
+    background: white;
     padding: 40px;
  }
  .bc-banner:hover {

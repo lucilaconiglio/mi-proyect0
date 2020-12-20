@@ -1,5 +1,6 @@
 /* npm run watch-css */
 /* Variables */
+/* #fddb3a; */
 html {
   scroll-behavior: smooth; }
 
@@ -16,16 +17,18 @@ body {
 
 /* Estilo del header */
 .nav-menu {
-  background-color: #fddb3a; }
+  background-color: #faf4ff; }
   .nav-menu .brandStyle {
     font-family: "Merriweather", serif;
     color: black;
     letter-spacing: 5px;
     font-size: 150%; }
+  .nav-menu .hamburguerColor {
+    background-color: black; }
   .nav-menu .navLinkStyle li {
-    margin-left: 30px; }
+    margin-left: 10px; }
     .nav-menu .navLinkStyle li a:hover {
-      background-color: rgba(255, 255, 255, 0.5); }
+      background-color: white; }
 
 @media only screen and (max-width: 768px) {
   body {
@@ -112,7 +115,7 @@ main .carruselFondo {
   margin-top: 60px;
   position: relative;
   overflow: hidden;
-  background-color: 0;
+  background: white;
   padding: 40px; }
 
 .bc-banner:hover {
@@ -314,7 +317,7 @@ main .carruselFondo {
 .footer-credits {
   position: absolute;
   width: 100%;
-  background-color: #fddb3a; }
+  background-color: #faf4ff; }
   .footer-credits p {
     margin: 10px;
     color: #050505;
