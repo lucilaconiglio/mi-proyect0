@@ -11,6 +11,7 @@ html {
     background: fixed;
 }
 
+
 body {
     height: 800px;
     padding-top: 110px;
@@ -256,16 +257,11 @@ main {
 
 #contacto{
     margin-bottom: 40px;
-
-        .subtitle__contacto{
-            -webkit-border-radius: 100px 68px 86px 0px;
-            -moz-border-radius: 100px 68px 86px 0px;
-            border-radius: 100px 68px 86px 0px;
-        }
 }
 
 #contactData li{
     font-size: 3.5vh;
+    font-weight: bold;
     padding-right: 10px;
     padding-left: 10px;
     margin: 50px;
@@ -304,6 +300,8 @@ main {
 
 .alquiler-estilos main{
     margin-bottom: 100px;
+    background-attachment: fixed;
+    background-color: #f5f4f4;
 }
 
 .grid-container {

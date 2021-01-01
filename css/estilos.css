@@ -174,13 +174,10 @@ main .carruselFondo {
 /* contacto */
 #contacto {
   margin-bottom: 40px; }
-  #contacto .subtitle__contacto {
-    -webkit-border-radius: 100px 68px 86px 0px;
-    -moz-border-radius: 100px 68px 86px 0px;
-    border-radius: 100px 68px 86px 0px; }
 
 #contactData li {
   font-size: 3.5vh;
+  font-weight: bold;
   padding-right: 10px;
   padding-left: 10px;
   margin: 50px;
@@ -207,7 +204,9 @@ main .carruselFondo {
 
 /* alquileres */
 .alquiler-estilos main {
-  margin-bottom: 100px; }
+  margin-bottom: 100px;
+  background-attachment: fixed;
+  background-color: #f5f4f4; }
 
 .grid-container {
   display: grid;
