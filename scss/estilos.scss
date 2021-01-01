@@ -150,17 +150,30 @@ main {
                 text-align: justify;
                 font-size: 22px;
                 font-family: $cuerpoFont;
-                text-indent: 30px;                
+                text-indent: 30px;      
             }
 
             img{ 
                 height: 400px;
                 width: 100%;
                 padding-bottom: 15px;
+            }             
+            
+            img:hover{
+                
+            box-shadow:
+                1px 1px whitesmoke,
+                2px 2px whitesmoke,
+                3px 3px whitesmoke;
+            -webkit-transform: translateX(-3px);
+            transform: translateX(-3px);
             }
         }
 
 }
+
+// Animacion 
+
 
 @media only screen and (max-width:768px)
 {
@@ -186,7 +199,7 @@ main {
     padding: 40px;
  }
  .bc-banner:hover {
-    opacity:0.8;
+    background-color: rgb(255, 217, 0);
  }
  .bc-banner-header {
     background-color:#fff;
@@ -229,11 +242,26 @@ main {
     font-size: 40px;
 }
 
+@media only screen and (max-width:768px){
+    .bc-banner-body {
+        font-size: 30px;
+        text-align: center;
+        margin-left: -10px;
+        margin-right: 0px;
+        padding: 0;
+    }
+ }
 
 /* contacto */
 
 #contacto{
     margin-bottom: 40px;
+
+        .subtitle__contacto{
+            -webkit-border-radius: 100px 68px 86px 0px;
+            -moz-border-radius: 100px 68px 86px 0px;
+            border-radius: 100px 68px 86px 0px;
+        }
 }
 
 #contactData li{

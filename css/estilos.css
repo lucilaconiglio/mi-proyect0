@@ -104,6 +104,10 @@ main .carruselFondo {
       height: 400px;
       width: 100%;
       padding-bottom: 15px; }
+    .nosotros div img:hover {
+      box-shadow: 1px 1px whitesmoke, 2px 2px whitesmoke, 3px 3px whitesmoke;
+      -webkit-transform: translateX(-3px);
+      transform: translateX(-3px); }
 
 @media only screen and (max-width: 768px) {
   .nosotros div {
@@ -123,7 +127,7 @@ main .carruselFondo {
   padding: 40px; }
 
 .bc-banner:hover {
-  opacity: 0.8; }
+  background-color: #ffd900; }
 
 .bc-banner-header {
   background-color: #fff;
@@ -159,9 +163,21 @@ main .carruselFondo {
   padding: 5px 0;
   font-size: 40px; }
 
+@media only screen and (max-width: 768px) {
+  .bc-banner-body {
+    font-size: 30px;
+    text-align: center;
+    margin-left: -10px;
+    margin-right: 0px;
+    padding: 0; } }
+
 /* contacto */
 #contacto {
   margin-bottom: 40px; }
+  #contacto .subtitle__contacto {
+    -webkit-border-radius: 100px 68px 86px 0px;
+    -moz-border-radius: 100px 68px 86px 0px;
+    border-radius: 100px 68px 86px 0px; }
 
 #contactData li {
   font-size: 3.5vh;
