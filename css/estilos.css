@@ -204,9 +204,13 @@ main .carruselFondo {
 
 /* alquileres */
 .alquiler-estilos main {
-  margin-bottom: 100px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
   background-attachment: fixed;
   background-color: #f5f4f4; }
+  .alquiler-estilos main .subtitle__alquiler {
+    padding-top: 30px;
+    padding-bottom: 30px; }
 
 .grid-container {
   display: grid;
