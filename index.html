@@ -47,7 +47,7 @@
         <meta name="theme-color" content="#ffffff">
 
     </head>
-    <body id="indexMarginTop">
+    <body id="indexMarginTop" data-spy="scroll" data-target=".navbar" data-offset="50">
         
         <header>
             <!-- Navbar -->
@@ -59,19 +59,19 @@
                     </button>
                     <div class="collapse navbar-collapse navLinkStyle" id="navbarResponsive">
                         <ul class="navbar-nav ml-auto ">
-                             <li class="nav-item">
-                                <a class="nav-link text-dark navhover hover1" href="#inicio">INICIO</a>
+                             <li class="nav-item active">
+                                <a class="nav-link text-dark" href="#inicio">INICIO</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item active">
                                 <a class="nav-link text-dark" href="#nosotros">NOSOTROS</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item active">
                                 <a class="nav-link text-dark" href="#especialidades">ESPECIALIDADES</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item active">
                                 <a class="nav-link text-dark" href="#alquiler">ALQUILERES</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item active">
                                 <a class="nav-link text-dark" href="#contacto">CONTACTO</a>
                             </li>
                         </ul>
@@ -224,7 +224,7 @@
         <section id="contacto" class="fondoContacto">
           <main>
             <section class="container">
-                <h2 class="subtitle">¡Contactanos!</h2>
+                <h2 class="subtitle subtitle__contacto">¡Contactanos!</h2>
                 <ul id="contactData">
                 <!--logo de mail--> <li class="far fa-envelope mailResponsive" id="mail">consultoriosyrigoyen@hotmail.com</li>
                 <!--logo de telefono--> <li class="fas fa-phone-alt">4254-0315 <br> 7530-0059</li>
@@ -266,13 +266,10 @@
                         </div>
                     <button type="submit" class="boton btn btn-dark">Enviar</button>
                 </form>
-            </div>
-        </main>
+                <p></p>
+              </div>
+          </main>
         </section>
-
-
-
-
 
         <footer>
             <div class="info">

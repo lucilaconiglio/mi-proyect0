@@ -1,7 +1,7 @@
 /* npm run watch-css */
 
 /* Variables */
-$amarillo: #faf4ff; /* #fddb3a; */
+$amarillo: #F0EFEB /* #faf4ff */; /* #fddb3a; */
 $navFont: 'Merriweather', serif;
 $cuerpoFont: 'PT Serif', serif;
 $animate: all 0.2s ease-in-out;
@@ -16,6 +16,7 @@ body {
     height: 800px;
     padding-top: 110px;
     position: relative;
+    overflow-y: scroll;
 }
 
 #indexMarginTop{
@@ -46,6 +47,7 @@ background-color: $amarillo;
         }
     } 
 }
+
 
 @media only screen and (max-width:768px)
 {
@@ -173,9 +175,6 @@ main {
 
 }
 
-// Animacion 
-
-
 @media only screen and (max-width:768px)
 {
   .nosotros div{
@@ -256,7 +255,16 @@ main {
 /* contacto */
 
 #contacto{
-    margin-bottom: 40px;
+    margin: 0;
+
+    .subtitle__contacto{
+        padding-top: 50px;
+    }
+}
+
+.fondoContacto{
+    background-color: #212529;
+   
 }
 
 #contactData li{
@@ -269,6 +277,7 @@ main {
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
+    color: whitesmoke;
  }
 
  @media only screen and (max-width:768px){
@@ -288,8 +297,7 @@ main {
  /* pisando bootstrap contacto */
 
  .formulario{
-    background: #bedbbb;
-
+    background: #ffe05d /* #81B29A  *//* #bedbbb */;
     .boton{
         margin: 5px;
     }   
@@ -299,8 +307,7 @@ main {
 /* alquileres */
 
 .alquiler-estilos main{
-    margin-bottom: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
     background-attachment: fixed;
     background-color: #f5f4f4;
 
@@ -352,7 +359,6 @@ main {
 
 .info {
 background-color: rgb(180, 180, 180);
-margin-top: 15px;
     h3{
         font-family: $cuerpoFont;
         font-weight: bold;
