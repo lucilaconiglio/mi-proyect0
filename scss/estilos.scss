@@ -31,12 +31,6 @@ body {
 
 .nav-menu{
 background-color: $amarillo;
-    .brandStyle{
-        font-family: $navFont; 
-        color: black;
-        letter-spacing: 5px;
-        font-size: 150%;
-    }
 
     .navLinkStyle li{
         margin-left: 10px;
@@ -61,10 +55,7 @@ background-color: $amarillo;
    }
 
    .nav-menu 
-        .brandStyle{
-        letter-spacing: 5px;
-        
-   
+          
         li{
         font-size: 70%;
         display: flex;
@@ -78,18 +69,19 @@ background-color: $amarillo;
     }
 }
 
-@media only screen and (max-width:320px)
+@media only screen and (max-width:360px)
 {   
     body{
         padding-top: 100px;
     }
-    .nav-menu .brandStyle{
-        letter-spacing: 5px;
-        font-size: 120%;
-    }
-
+ 
     main .responsiveCarrusel{
         height: 400px;
+    }
+
+    .brandStyle img{
+        width: 210px;
+        height: 70px;
     }
 }
 
@@ -244,12 +236,29 @@ main {
 
 @media only screen and (max-width:768px){
     .bc-banner-body {
-        font-size: 30px;
+        font-size: 25px;
         text-align: center;
-        margin-left: -10px;
+        margin-left: -30px;
         margin-right: 0px;
         padding: 0;
     }
+ }
+
+ @media only screen and (max-width:667px){
+    .bc-banner-body {
+        font-size: 25px;
+        text-align: center;
+        padding: 0;
+        letter-spacing: 5px;
+    }
+
+ }
+
+ @media only screen and (max-width:320px){
+    .bc-banner{
+        width: 100%;
+    }
+
  }
 
 /* contacto */

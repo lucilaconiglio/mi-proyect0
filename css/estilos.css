@@ -21,11 +21,6 @@ body {
 /* Estilo del header */
 .nav-menu {
   background-color: #F0EFEB; }
-  .nav-menu .brandStyle {
-    font-family: "Merriweather", serif;
-    color: black;
-    letter-spacing: 5px;
-    font-size: 150%; }
   .nav-menu .navLinkStyle li {
     margin-left: 10px; }
     .nav-menu .navLinkStyle li a:hover {
@@ -53,11 +48,11 @@ body {
 @media only screen and (max-width: 320px) {
   body {
     padding-top: 100px; }
-  .nav-menu .brandStyle {
-    letter-spacing: 5px;
-    font-size: 120%; }
   main .responsiveCarrusel {
-    height: 400px; } }
+    height: 400px; }
+  .brandStyle img {
+    width: 210px;
+    height: 70px; } }
 
 /* contenido principal */
 #inicio {
@@ -167,11 +162,22 @@ main .carruselFondo {
 
 @media only screen and (max-width: 768px) {
   .bc-banner-body {
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
-    margin-left: -10px;
+    margin-left: -30px;
     margin-right: 0px;
     padding: 0; } }
+
+@media only screen and (max-width: 667px) {
+  .bc-banner-body {
+    font-size: 25px;
+    text-align: center;
+    padding: 0;
+    letter-spacing: 5px; } }
+
+@media only screen and (max-width: 320px) {
+  .bc-banner {
+    width: 100%; } }
 
 /* contacto */
 #contacto {
