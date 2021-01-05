@@ -241,7 +241,7 @@ main {
     .bc-banner-body {
         font-size: 25px;
         text-align: center;
-        margin-left: -30px;
+        margin-left: -10px;
         margin-right: 0px;
         padding: 0;
     }
@@ -258,10 +258,11 @@ main {
  }
 
  @media only screen and (max-width:320px){
-    .bc-banner{
-        width: 100%;
+    .bc-banner-body{
+        font-size: 15px;
+        margin-right: 10px;
+        font-weight: normal;
     }
-
  }
 
 /* contacto */
