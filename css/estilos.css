@@ -229,61 +229,67 @@ main .carruselFondo {
     padding-top: 30px;
     padding-bottom: 30px; }
 
-.img1 {
-  /*grid-area: img1; */
-  height: 400px;
-  width: 400px;
-  object-fit: cover; }
-
+/* @mixin sizes($height, $width) {
+    height: $height;
+    width: $width;
+} */
+/*     .img1 {
+       @include sizes(100px, 100px);
+        object-fit: cover;
+        }  */
 .img1:hover {
-  padding: 1px; }
+  padding: 5px; }
 
-.img2 {
-  /*grid-area: img2; */
-  height: 400px;
-  width: 400px;
-  object-fit: cover; }
-
+/*     .img2 {
+       @include sizes(100px, 100px);
+        object-fit: cover;
+        }  */
 .img2:hover {
-  padding: 1px; }
+  padding: 5px; }
 
-.img3 {
-  /*grid-area: img3; */
-  height: 400px;
-  width: 400px;
-  object-fit: cover; }
-
+/*     .img3 {
+       @include sizes(100px, 100px);
+        object-fit: cover;
+        }  */
 .img3:hover {
-  padding: 1px; }
+  padding: 5px; }
 
-.img4 {
-  /*grid-area: img4; */
-  height: 400px;
-  width: 400px;
-  object-fit: cover; }
-
+/*     .img4 {
+       @include sizes(100px, 100px);
+        object-fit: cover;
+        }  */
 .img4:hover {
-  padding: 1px; }
+  padding: 5px; }
 
-.img5 {
-  /*grid-area: img5; */
-  height: 400px;
-  width: 400px;
-  object-fit: cover; }
-
+/*     .img5 {
+       @include sizes(100px, 100px);
+        object-fit: cover;
+        }  */
 .img5:hover {
-  padding: 1px; }
+  padding: 5px; }
 
-.img6 {
-  /*grid-area: img6; */
-  height: 400px;
-  width: 400px;
-  object-fit: cover; }
-
+/*     .img6 {
+       @include sizes(100px, 100px);
+        object-fit: cover;
+        }  */
 .img6:hover {
-  padding: 1px; }
+  padding: 5px; }
 
-/* footer info*/
+/*     .img7 {
+       @include sizes(100px, 100px);
+        object-fit: cover;
+        }  */
+.img7:hover {
+  padding: 5px; }
+
+/*     .img8 {
+       @include sizes(100px, 100px);
+        object-fit: cover;
+        }  */
+.img8:hover {
+  padding: 5px; }
+
+/* footer info */
 .info {
   background-color: #b4b4b4; }
   .info h3 {

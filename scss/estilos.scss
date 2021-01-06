@@ -333,24 +333,23 @@ main {
      }
 }
 
-@mixin sizes($height, $width) {
+/* @mixin sizes($height, $width) {
     height: $height;
     width: $width;
-}
-
-@for $i from 1 through 6 {
-    .img#{$i} {
-        /*grid-area: img#{$i}; */
-        @include sizes(400px, 400px);
+} */
+ 
+ @for $i from 1 through 8 {
+/*     .img#{$i} {
+       @include sizes(100px, 100px);
         object-fit: cover;
+        }  */
+           
+    .img#{$i}:hover{
+            padding: 5px;
         }
+} 
 
-        .img#{$i}:hover{
-            padding: 1px;
-        }
-}
-
-/* footer info*/
+/* footer info */
 
 .info {
 background-color: rgb(180, 180, 180);
