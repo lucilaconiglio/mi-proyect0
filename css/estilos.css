@@ -169,16 +169,18 @@ main .carruselFondo {
 
 @media only screen and (max-width: 667px) {
   .bc-banner-body {
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     padding: 0;
+    margin-left: 5px;
     letter-spacing: 5px; } }
 
 @media only screen and (max-width: 320px) {
   .bc-banner-body {
-    font-size: 15px;
-    margin-right: 10px;
-    font-weight: normal; } }
+    font-size: 10px;
+    margin-right: 20px;
+    font-weight: normal;
+    letter-spacing: normal; } }
 
 /* contacto */
 #contacto {
