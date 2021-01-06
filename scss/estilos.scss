@@ -333,27 +333,6 @@ main {
      }
 }
 
-.grid-container {
-    display: grid;
-    grid-gap: 4px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    transition: all 2s;
-
-        img{
-        width: 100%;  
-        padding: 10px;
-    }
-}
-
- @media only screen and (max-width:768px)
- {
-    .grid-container{
-        display: flex;
-        flex-direction: column;
-    }
-}
-
 @mixin sizes($height, $width) {
     height: $height;
     width: $width;
